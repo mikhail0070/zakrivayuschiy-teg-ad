@@ -86,6 +86,7 @@
   
 .card__icon-button .is-liked .sparks {
     animation: sparks var(--time_step) ease-in var(--time_step) 1;
+    opacity: 1;
 }
 
 .card__icon-button:focus-visible {
@@ -95,9 +96,4 @@
 .card__icon-button .sparks {
     opacity: 0;
     transition: opacity var(--time_step) ease;
-}
-
-/* Показываем звездочки только при лайке */
-.card__icon-button .is-liked .sparks {
-    opacity: 1;
 }

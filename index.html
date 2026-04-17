@@ -423,18 +423,14 @@
       </article>
 
       <button class="save_button decorated_button savebtn"
-      type="button"
-      onclick="window['dialog-id'].show()" 
-      aria-controls="dialog-id"
+        type="button"
+        onclick="document.getElementById('dialog-id').showModal()" 
+        aria-controls="dialog-id"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="svg_img"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" class="svg_img">
           <use href="./svg/save.svg#save"></use>
         </svg>
         <span class="decorated_button_text">Сохранить на память</span>
-
       </button>
     </main>
     
@@ -448,7 +444,7 @@
         <button 
           type="submit"
           class="dialog_button decorated_button">
-          <span class="decorated_button_text">OK</span>
+          <span class="decorated_button_text btn">OK</span>
         </button>
       </form>
     </dialog>
