@@ -269,7 +269,7 @@
 .decorated_button:hover::before {
   translate: 0%;
 }
-.article_info_block{
+.article_info_block {
   display: flex;
   flex-direction: column;
 }
