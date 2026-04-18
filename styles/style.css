@@ -163,12 +163,13 @@
   inline-size: 39px;
   block-size: 39px;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   background-color: transparent;
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
+  width: 100%;
 }
 
 .footer {
